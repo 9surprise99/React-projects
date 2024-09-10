@@ -1,0 +1,29 @@
+@media (max-width: 768px){
+	.slide1::before{
+		width: 100%;
+	}
+	.mob-col-100{
+		width: 100%;
+	}
+	.mob-dir-col{
+		flex-direction:column;
+	}
+	.slide2-col{
+		padding:0;
+	}
+	.slide3-col{
+		padding:0;
+	}
+	.mob-wrap{
+		flex-wrap: wrap;
+	}
+	.mob-d-none{
+		display:none;
+	}
+	.mob-basis-30{
+		flex-basis: 30%;
+	}
+	#slide4 .left-col, #slide4 .right-col{
+		padding: 5px;
+	}
+}
